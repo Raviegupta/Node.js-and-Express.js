@@ -23,9 +23,8 @@ readFile('./content/first.txt', 'utf-8', (err, result) => {
                 return;
             }
             console.log('done with this async task');
-        }
-      )
+        });
     });
 });
 console.log('starting new task');
-console.log('Hello Hiiii there, async task is going on ..... result will come after this..')
+console.log('Hello Hiiii there, async task is going on ..... result will come after this..');
