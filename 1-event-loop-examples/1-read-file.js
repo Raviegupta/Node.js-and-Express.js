@@ -11,3 +11,6 @@ fs.readFile('../Content/first.txt', 'utf-8', (err, result) => {
     console.log('completed first task');
 })
 console.log('starting next task');
+
+
+// Event Lopp will offload the Asynchronous code
